@@ -43,7 +43,10 @@
                                             <p>Beyond the New Normal: Realizing innovations for a Sustainable and
                                                 Crisis-Proactive Society</p>
                                             <div class="post-extra">
-                                                <a href="#" class="btn-link">READ MORE</a>
+                                                <a href="#" class="btn-link"
+                                                    onclick="openInNewTab('https://www.dlsu.edu.ph/conferences/research-congress/research-congress-2022/')">
+                                                    READ MORE
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -61,7 +64,10 @@
                                             </h5>
                                             <p>PADAYON SINING: A CELEBRATION OF THE ENDURING VALUE OF THE HUMANITIES</p>
                                             <div class="post-extra">
-                                                <a href="#" class="btn-link">READ MORE</a>
+                                                <a href="#" class="btn-link"
+                                                    onclick="openInNewTab('https://www.dlsu.edu.ph/conferences/dlsu-arts-congress/12th-arts-congress/schedule-of-paper-presentation/')">
+                                                    READ MORE
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -81,7 +87,10 @@
                                             </h5>
                                             <p>Intensifying the Role of Chemical Engineering for Sustainable Cities</p>
                                             <div class="post-extra">
-                                                <a href="#" class="btn-link">READ MORE</a>
+                                                <a href="#" class="btn-link"
+                                                    onclick="openInNewTab('https://www.dlsu.edu.ph/conferences/rsce/')">
+                                                    READ MORE
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -100,7 +109,10 @@
                                             <p>Serving to promote international exchange among graduate students and
                                                 young researchers</p>
                                             <div class="post-extra">
-                                                <a href="#" class="btn-link">READ MORE</a>
+                                                <a href="#" class="btn-link"
+                                                    onclick="openInNewTab('https://www.dlsu.edu.ph/conferences/icast-2018/')">
+                                                    READ MORE
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -136,33 +148,39 @@
                                         <div class="widget-post-bx">
                                             <div class="widget-post clearfix">
                                                 <div class="ttr-post-media"> <img
-                                                        src="assets/images/conferences/conference-1.png" width="500"
+                                                        src="assets/images/conferences/conference-6.jpg" width="500"
                                                         height="300" alt=""> </div>
                                                 <div class="ttr-post-info">
                                                     <div class="ttr-post-header">
-                                                        <h6 class="post-title"><a>Previous Week</a></h6>
+                                                        <h6 class="post-title"><a>DLSU Innovation and Technology
+                                                                (DITECH) Fair
+                                                            </a></h6>
                                                     </div>
                                                     <ul class="media-post">
-                                                        <li><a><i class="fa fa-calendar"></i>Oct 23 2023</a>
+                                                        <li><a><i class="fa fa-calendar"></i>November 22, 2018</a>
                                                         </li>
-                                                        <li><a><i class="fa fa-comments-o"></i>Learn More</a>
+                                                        <li><a
+                                                                onclick="openInNewTab('https://www.dlsu.edu.ph/conferences/ditech-fair/ditech-2018/')"><i
+                                                                    class="fa fa-comments-o"></i>Learn More</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="widget-post clearfix">
                                                 <div class="ttr-post-media"> <img
-                                                        src="assets/images/conferences/conference-2.jpg" width="250"
+                                                        src="assets/images/conferences/conference-8.jpg" width="250"
                                                         height="200" alt=""> </div>
                                                 <div class="ttr-post-info">
                                                     <div class="ttr-post-header">
-                                                        <h6 class="post-title"><a>Previous Month</a></h6>
+                                                        <h6 class="post-title"><a>First DLSU Food Research Program
+                                                                Workshop </a></h6>
                                                     </div>
                                                     <ul class="media-post">
-                                                        <li><a><i class="fa fa-calendar"></i>September 14 2023</a>
+                                                        <li><a><i class="fa fa-calendar"></i>September 2011</a>
                                                         </li>
-                                                        <li><a><i class="fa fa-comments-o"></i>Learn More</a>
-                                                        </li>
+                                                        <li><a
+                                                                onclick="openInNewTab('https://www.dlsu.edu.ph/conferences/first-dlsu-food-research-program-workshop/')"><i
+                                                                    class="fa fa-comments-o"></i>Learn More</a>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -180,6 +198,11 @@
     </div>
 
     <script>
+
+        function openInNewTab(url) {
+            const newTab = window.open(url, '_blank');
+            newTab.focus();
+        }
         // Array to hold conferences data
         const conferences = [
             {
@@ -187,7 +210,8 @@
                 date: "May 12-13, 2022",
                 speaker: "David Shan-Hill Wong",
                 content: "Beyond the New Normal: Realizing innovations for a Sustainable and Crisis-Proactive Society",
-                image: "assets/images/conferences/conference-1.png"
+                image: "assets/images/conferences/conference-1.png",
+                link: "https://www.dlsu.edu.ph/conferences/research-congress/research-congress-2022/"
 
             },
             {
@@ -195,7 +219,8 @@
                 date: "Feb 20, 2019",
                 speaker: "Gulliver Eric Alawas",
                 content: "Intensifying the Role of Chemical Engineering for Sustainable Cities",
-                image: "assets/images/conferences/conference-2.jpg"
+                image: "assets/images/conferences/conference-2.jpg",
+                link: "https://www.dlsu.edu.ph/conferences/dlsu-arts-congress/12th-arts-congress/schedule-of-paper-presentation/"
 
             },
             {
@@ -203,7 +228,8 @@
                 date: "November 21, 2018",
                 speaker: "Gulliver Eric Alawas",
                 content: "Intensifying the Role of Chemical Engineering for Sustainable Cities",
-                image: "assets/images/conferences/conference-3.jpg"
+                image: "assets/images/conferences/conference-3.jpg",
+                link: "https://www.dlsu.edu.ph/conferences/rsce/"
 
             },
             {
@@ -211,7 +237,8 @@
                 date: "November 21, 2018",
                 speaker: "Thomas",
                 content: "Serving to promote international exchange among graduate students and young researchers",
-                image: "assets/images/conferences/conference-4.jpg"
+                image: "assets/images/conferences/conference-4.jpg",
+                link: "https://www.dlsu.edu.ph/conferences/icast-2018/"
 
             },
             // Add more conferences here
@@ -238,7 +265,10 @@
                             <h5 class="post-title"><a>${searchResult.title}</a></h5>
                             <p>${searchResult.content}</p>
                             <div class="post-extra">
-                                <a href="#" class="btn-link">READ MORE</a>
+                                <a href="#" class="btn-link"
+                                            onclick="openInNewTab('${searchResult.link}')">
+                                    READ MORE
+                                </a>                            
                             </div>
                         </div>
                     </div>
