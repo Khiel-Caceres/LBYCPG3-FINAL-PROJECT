@@ -2,7 +2,11 @@
 a:link {
   text-decoration: none;
 }
-
+h2 {
+  color: #00703c;
+  font-size: 2rem;
+  margin: 0;
+}
 .vn-green a {
   background-color: #27ae60;
   display: inline-block;
